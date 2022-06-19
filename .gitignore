@@ -2,3 +2,6 @@
 package-lock.json
 package.json
 text
+log
+node_modules
+

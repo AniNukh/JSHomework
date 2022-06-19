@@ -1,0 +1,20 @@
+{
+  "name": "group4",
+  "version": "1.2.1",
+  "description": "Test jason",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "test",
+    "npm"
+  ],
+  "author": "Ani",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "jshint": "^2.13.4"
+  }
+}

@@ -19,6 +19,8 @@ calc (9 ,5 , "*");
 
 
 
+// Grigi het qnnarkel enq. 
+// es tarberak@ durs ekav, es chkaroxaca menak havaqem))
 let result = "";
 let star= "*";
 for (let i = 0; i <= 7; i++) {

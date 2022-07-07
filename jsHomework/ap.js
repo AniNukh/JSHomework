@@ -39,3 +39,115 @@ console.log(k(25,1,350));
  
 //*
 
+let a = [2, 8, 73, 29, 37, 66];
+for(let i = 0; i < a.length ; i++ ){
+  a[i]++;
+}
+console.log(a);
+
+//** */
+
+function animal (b){
+    if (b === "dog"){
+    console.log("haf-haf");
+    }else if (b === "cat"){
+     return "meou-meou";
+    } else {
+        console.log("uncorrect animal)");
+    }
+}
+ console.log(animal("cat"));
+ 
+ //** */
+
+ function calc (number1, number2, oper){
+    if (oper === "+"){
+        return number1 + number2;
+    } else if (oper === "-"){
+        return number1 - number2;
+    } else if (oper === "*"){
+        return number1 * number2;
+    } else if (oper === "/"){
+        return number1 / number2;
+        
+    }
+ }
+ console.log(calc(25 ,5 , "+"));
+
+ //* 
+
+ function grig (arr){
+   let sum = 0;
+    for(let i = 0; i < arr.length; i++){
+        sum += arr[i];
+    }
+    return sum / arr.length;
+ }
+ console.log(grig([2, 6, 7, 9]));
+
+ //** */
+
+ function fib ( r ){
+    let arr = [0, 1];
+    for (let i = 2; i <= r; i++ ){
+        arr[i] = arr[i-1] + arr[i-2];
+    }
+  return arr;  
+ }
+ console.log(fib(10));
+
+ //* 
+
+ function fact (number){
+    let sum = 1;
+    for(let i = 1; i <= number; i++ ){
+        sum *= i; 
+    }
+    return sum;
+ }
+ console.log(fact(6));
+
+/*
+primitive types
+
+number 
+string
+boolean
+null
+undefind
+Nan
+
+bigint
+symbol
+
+referance types 
+
+object
+function 
+array
+new Error
+new Date
+new RegExp
+
+
+boolenan operators
+
+>
+<
+>=
+<=
+=
+==
+===
+!
+!=
+!==
+%
+&&
+|| 
+
+
+*/ 
+
+
+

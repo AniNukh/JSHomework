@@ -91,6 +91,7 @@ for (let key in barca) {
 
 //* 
 
+
 //object
 const obj = {
     myFunction1 (){

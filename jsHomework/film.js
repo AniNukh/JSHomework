@@ -1,5 +1,6 @@
 "use strict";
 
+
 const numberOfFilms = start();
 
 const personalMovieDB = {
@@ -81,5 +82,3 @@ function start (numberOfFilms) {
 
 	return numberOfFilms;
 }
-
-

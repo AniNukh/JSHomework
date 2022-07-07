@@ -1,7 +1,7 @@
 "use strict";
 
 const barca= {
-    
+
     president: "Joan Laporta",
     coach: "Xavi",
     founded: 1899,
@@ -73,9 +73,9 @@ for (let key in barca) {
 
         for (let skey in barca[key]){
             if(typeof barca[key][skey] === "object" ){
-               
+
                 for (let tkey in barca[key][skey]){
-            
+
                     console.log(`${key}: ${skey}: ${tkey}:  ${barca[key][skey][tkey]} `);
                 }
             } else{
@@ -86,7 +86,7 @@ for (let key in barca) {
     } else {
         console.log(`${key}:  ${barca[key]}`);
     }
-    
+
 }
 
 //* 
@@ -137,7 +137,4 @@ const [x,y,z] = arr;
 x();
 y();
 z();
-
-
-
 
